@@ -1,0 +1,26 @@
+{
+  "name": "ShadeTweet",
+  "version": "1.0.0",
+  "description": "An app that aggregates tweets from different locations and displays them according to their sentiments ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sameer-b/ShadeTweet.git"
+  },
+  "author": "Sameer Balasubrahmanyam",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/sameer-b/ShadeTweet/issues"
+  },
+  "homepage": "https://github.com/sameer-b/ShadeTweet",
+  "dependencies": {
+    "express": "^4.12.2",
+    "twitter" : "*",
+    "util": "*",
+    "jade" : "*",
+    "formidable" : "*"
+  }
+}
