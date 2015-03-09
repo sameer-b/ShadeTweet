@@ -12,8 +12,15 @@ body
         form.form-signin(action = '/mapTweets', method = 'POST')
             .form-group
                 h2.form-signin-heading Enter the details
-                input.form-control(type='text', name='idea', placeholder='Idea')
-                input.form-control(type='text', name='firstHashTag', placeholder='Negative Hash Tag eg #hate')
-                input.form-control(type='text', name='secondHashTag', placeholder='Positive Hash Tag eg #love')
+            .form-group
+                label(for='idea') Idea
+                input.form-control(type='text', name='idea', placeholder='Some idea like weather')
+            .form-group
+                label(for='firstHashTag') First Hash Tag
+                input.form-control(type='text', name='firstHashTag', placeholder='Negative hash tag.. eg #hate')
+            .form-group
+                label(for='secondHashTag') Second Hash Tag
+                input.form-control(type='text', name='secondHashTag', placeholder='Positive hash tag.. eg #love')
+            .form-group
                 button.btn.btn-default(type='submit') Submit
 
