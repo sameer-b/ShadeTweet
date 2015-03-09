@@ -1,0 +1,19 @@
+//
+   Created by Sameer on 3/8/2015.
+//
+   Created by Sameer on 3/8/2015.
+doctype html
+html(lang="en")
+    head
+        include ./head.jade
+        title Tweet Shade - Home
+body
+    .container
+        form.form-signin(action = '/mapTweets', method = 'POST')
+            .form-group
+                h2.form-signin-heading Enter the details
+                input.form-control(type='text', name='idea', placeholder='Idea')
+                input.form-control(type='text', name='firstHashTag', placeholder='Negative Hash Tag eg #hate')
+                input.form-control(type='text', name='secondHashTag', placeholder='Positive Hash Tag eg #love')
+                button.btn.btn-default(type='submit') Submit
+
